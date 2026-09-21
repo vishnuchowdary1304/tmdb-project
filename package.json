@@ -1,0 +1,14 @@
+{
+  "name": "search-by-movie-name",
+  "version": "1.0.0",
+  "description": "Search for movie details by name using TMDB API",
+  "main": "search.js",
+  "type": "module",
+  "scripts": {
+    "search": "node search.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "node-fetch": "^3.3.2"
+  }
+}
